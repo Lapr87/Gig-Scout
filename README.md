@@ -25,8 +25,8 @@
 Follow these steps to run **Gig Scout** on your own computer:
 
 ### 1. Clone the Project
-```bash
-git clone [https://github.com/YOUR_USERNAME/gig-scout.git](https://github.com/YOUR_USERNAME/gig-scout.git)
+"bash"
+```git clone [https://github.com/YOUR_USERNAME/gig-scout.git](https://github.com/YOUR_USERNAME/gig-scout.git)
 cd gig-scout```
 
 
