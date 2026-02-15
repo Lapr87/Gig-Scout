@@ -26,28 +26,32 @@ Follow these steps to run **Gig Scout** on your own computer:
 
 ### 1. Clone the Project
 "bash"
-```git clone``` ```[https://github.com/YOUR_USERNAME/gig-scout.git](https://github.com/YOUR_USERNAME/gig-scout.git)
-cd gig-scout```
+git clone [https://github.com/YOUR_USERNAME/gig-scout.git](https://github.com/YOUR_USERNAME/gig-scout.git)
+cd gig-scout
+```
 
 
 ###2. Install Tools (The Plumbing)
-"Bash"
+```Bash
 
-```npm install```
+npm install
+```
 
 ###3. Configure Secrets
 
 Create a .env.local file in the root folder and add your keys:
-"Code snippet"
+```Code snippet
 
-```NEXT_PUBLIC_SUPABASE_URL=your_supabase_url```
-```NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key```
-```STRIPE_SECRET_KEY=your_stripe_secret_key```
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+STRIPE_SECRET_KEY=your_stripe_secret_key
+```
 
 ###4. Launch the App (Start Engine)
-"Bash"
+```Bash
 
-```npm run dev```
+npm run dev
+```
 
 Your app will now be live at http://localhost:3000.
 📜 License
