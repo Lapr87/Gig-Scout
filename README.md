@@ -1,15 +1,15 @@
 # 🏠 Gig Scout
 
-**Connecting Neighbors, Empowering Scouts.** Gig Scout is a hyper-local marketplace app built to simplify neighborhood gig work. Neighbors can post small tasks, and local "Scouts" can send offers to complete them. The entire process—from discovery to payment—is automated and secure.
+**Empowering Neighborhoods through Local Gigs.** Gig Scout is a community-driven marketplace built to bridge the gap between "Neighbors" who need tasks done and "Scouts" looking for local opportunities.
 
 ---
 
 ## 🚀 Key Features
 
-* **Automated Market Logic:** A built-in **10% platform fee** is automatically deducted from every task, ensuring seamless revenue for the platform owner.
-* **The "Chat Bouncer":** AI-powered chat moderation that detects and blocks contact details (emails/phone numbers) to keep transactions safe and on-platform.
-* **Two-Way Trust System:** A mandatory 1-5 star rating system for both Neighbors and Scouts to ensure community quality.
-* **Stripe Integration:** Professional-grade payment processing using Stripe Connect for split payouts.
+* **Automated Revenue:** Built-in **10% platform fee** logic automatically calculated at the database level.
+* **The "Chat Bouncer":** AI moderation prevents off-platform deals by detecting contact information sharing.
+* **Split Payments:** Powered by Stripe Connect to ensure secure, automated payouts to Scouts.
+* **Trust Ratings:** A mandatory 1-5 star feedback loop for both parties.
 
 ## 🛠️ Tech Stack
 
@@ -20,17 +20,36 @@
 
 ---
 
-## 🛠️ Setup Instructions
+## 💻 Local Development Setup
 
-1. **Clone the repository:**
-   `git clone https://github.com/YOUR_USERNAME/gig-scout.git`
+Follow these steps to run **Gig Scout** on your own computer:
 
-2. **Install dependencies:**
-   `npm install`
+### 1. Clone the Project
+```bash
+git clone [https://github.com/YOUR_USERNAME/gig-scout.git](https://github.com/YOUR_USERNAME/gig-scout.git)
+cd gig-scout
 
-3. **Configure Environment Variables:**
-   Create a `.env.local` file with your Supabase and Stripe keys:
-   ```env
-   NEXT_PUBLIC_SUPABASE_URL=your_url
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_key
-   STRIPE_SECRET_KEY=your_secret_key
+
+###2. Install Tools (The Plumbing)
+```Bash
+
+npm install```
+
+###3. Configure Secrets
+
+Create a .env.local file in the root folder and add your keys:
+Code snippet
+
+```NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+STRIPE_SECRET_KEY=your_stripe_secret_key```
+
+###4. Launch the App (Start Engine)
+```Bash
+
+npm run dev```
+
+Your app will now be live at http://localhost:3000.
+📜 License
+
+This project is licensed under the MIT License. [LICENSE.md](./LICENSE.md) for details.
