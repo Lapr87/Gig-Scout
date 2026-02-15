@@ -32,13 +32,13 @@ cd gig-scout
 ```
 
 
-###2. Install Tools (The Plumbing)
+### 2. Install Tools (The Plumbing)
 ```bash
 
 npm install
 ```
 
-###3. Configure Secrets
+### 3. Configure Secrets
 
 Create a .env.local file in the root folder and add your keys:
 ```Code snippet
@@ -48,7 +48,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 STRIPE_SECRET_KEY=your_stripe_secret_key
 ```
 
-###4. Launch the App (Start Engine)
+### 4. Launch the App (Start Engine)
 ```Bash
 
 npm run dev
