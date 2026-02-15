@@ -55,6 +55,9 @@ npm run dev
 ```
 
 Your app will now be live at http://localhost:3000.
-📜 License
 
-This project is licensed under the MIT License. [LICENSE.md](./LICENSE.md) for details.
+
+## 📜 Legal & Licensing
+
+* **Terms of Service:** Read our [Terms of Service](./TERMS.md) for details on fees and community rules.
+* **License:** This project is licensed under the [MIT License](./LICENSE.md).
